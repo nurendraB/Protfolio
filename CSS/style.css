@@ -70,4 +70,31 @@ footer {
     }
 }
 
+/* For small devices like phones */
+@media (max-width: 576px) {
+    header {
+        background-size: contain; /* Make the image fully visible on small screens */
+        background-position: top; /* Adjust the position as needed */
+        height: 70vh; /* Reduce the height to show more content above the fold */
+    }
+}
+
+/* For tablets and medium devices */
+@media (min-width: 577px) and (max-width: 992px) {
+    header {
+        background-size: cover;
+        background-position: center;
+        height: 80vh; /* Adjust height for larger screens */
+    }
+}
+
+/* For large devices and desktops */
+@media (min-width: 993px) {
+    header {
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Full screen height for large screens */
+    }
+}
+
 
