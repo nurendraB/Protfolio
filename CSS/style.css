@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+header {
+    background-size: cover;
+    color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.card {
+    
+    margin-bottom: 20px; /* Space below the cards */
+}
+
+.card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.custom-badge {
+    background-color: lightblue;
+    color: black;
+}
+
+
+
