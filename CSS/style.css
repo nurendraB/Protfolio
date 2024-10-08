@@ -48,5 +48,26 @@ footer {
     color: black;
 }
 
+@media (max-width: 768px) {
+    /* Styling for small devices */
+    .navbar-nav {
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-toggler {
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Adjustments for medium to large devices */
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
 
 
